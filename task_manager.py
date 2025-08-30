@@ -48,7 +48,7 @@ def delete_task(tasks):
     task_id = int(input("Enter task ID to delete: "))
     if task_id in tasks:
         deleted_task = tasks.pop(task_id)
-        print(f"Task '{delete_task['title']}' deleted")
+        print(f"Task '{deleted_task['title']}' deleted")
     else:
         print("Task ID is not found")
 
